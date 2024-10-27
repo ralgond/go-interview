@@ -4,7 +4,8 @@ go的面试题
 ## 协程
 - 启动3个协程，按顺序打印"cat"、"dog"和"fish", 重复这个过程100次。[答案](https://github.com/ralgond/go-interview/blob/main/cmd/goroutine_run_sequentially.go)
 - 已经有线程了，为什么还要有协程？[答案](https://github.com/ralgond/go-interview/blob/main/%E5%B7%B2%E7%BB%8F%E6%9C%89%E7%BA%BF%E7%A8%8B%E4%BA%86%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BF%98%E8%A6%81%E6%9C%89%E5%8D%8F%E7%A8%8B%EF%BC%9F.md)
-  
+- Go早期的调度器的缺陷？[答案](https://github.com/ralgond/go-interview/blob/main/Go%E6%97%A9%E6%9C%9F%E7%9A%84%E8%B0%83%E5%BA%A6%E5%99%A8%E7%9A%84%E7%BC%BA%E9%99%B7.md)
+
 ## 锁
 - sync.Mutex是协程级别的还是线程级别的锁？答案：线程级别
 - sync.Mutex是悲观锁还是乐观锁？答案：悲观锁
